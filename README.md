@@ -3,6 +3,7 @@
 APIS:
 In this section, you will find examples of how to send the requests as well as the possible responses obtained. 
 Note: The data are already stored in the app(H2 database). These are loaded during the run process of the app. 
+The server runs in localhost:8080
 
 USER'S ENPOINTS
 
