@@ -15,6 +15,7 @@ Example: cash/v1/user/1
 Result: 
 
 {
+
     "id": 1,   
     "firstName": "juan",
     "lastName": "pepe",
