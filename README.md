@@ -11,7 +11,9 @@ Description: It gets data and loans (if any) for a specific user.
 Example: cash/v1/user/1
 Result: 
 {
+
     "id": 1,
+    
     "firstName": "juan",
     "lastName": "pepe",
     "email": "juanpepe@gmail.com",
