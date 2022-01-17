@@ -14,8 +14,6 @@ Example: cash/v1/user/1
 
 Result: 
 
-{
-
     "id": 1,   
     "firstName": "juan",
     "lastName": "pepe",
@@ -37,7 +35,6 @@ Result:
             "idUser": 1
         }
     ]
-}
 
 - Post: /cash/v1/user
 
@@ -47,25 +44,17 @@ Example: /cash/v1/user
 
 Body: 
 
-{
-
     "email": "mickeyMouse@gmail.com",
     "firstName": "mickey",
     "lastName":"mouse"
 
-}
-
 Result:
-
-{
 
     "id": 5,
     "firstName": "mickey",
     "lastName": "mouse",
     "email": "mickeyMouse@gmail.com",
     "loans": []
-
-}
 
 - Delete: cash/v1/user/{idUser}
 
@@ -91,8 +80,6 @@ Parameters: page = 1, size= 2, id_user=1
 
 Result:
 
-{
-
     "items": [
         {
             "id": 3,
@@ -105,5 +92,3 @@ Result:
         "size": 2,
         "total": 3
     }
-
-}
